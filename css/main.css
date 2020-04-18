@@ -1,0 +1,239 @@
+*{
+    padding:0;
+    margin:0;
+}
+@font-face{
+    font-family:'Raleway';
+    src: url('../Raleway/static/Raleway-Light.ttf') format('truetype');
+}
+
+body{
+    background-color:#fff;
+    color:#000;
+    font-family: 'Raleway';
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav-bar{
+    width:100%;
+    z-index:2;
+    top:0;
+    left:0;
+    right:0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.055), 0 1px 1px rgba(0,0,0,0.16);
+}
+
+#nav-bar span{
+    padding: 10px 20px;
+}
+
+.nav-logo{
+    display:block;
+    font-weight: bolder;
+    font-size:20px;
+    
+}
+
+.nav-logo a{
+    color:#40b908;
+}
+
+
+#store{
+    background-image: url('../assets/bg.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:320px;
+    text-align:center;
+}
+
+.getForm{
+    padding:90px 20px 0px 20px;
+
+}
+.getStore{
+    font-size:18px;
+    font-weight:bolder;
+    margin-bottom:10px;
+    color:#fff;
+    text-shadow:2px 2px rgba(0, 0, 0, 0.219);
+}
+.storeInput{
+    padding:7px;
+    width:70%;
+    border:1px solid #fff;
+    border-radius:3px;
+}
+.storeButton{
+    padding:5px;
+    border-radius:3px;
+    border:0px;
+    margin-top:6px;
+    width:90px;
+    background-color: #40b908;
+    color:#fff;
+    font-size:15px;
+}
+
+#banner{
+    width:100%;
+    height:auto;
+    text-align:center;
+    padding-bottom:50px;
+}
+.category-desc{
+    padding-top:30px;
+    font-weight:bold;
+    display:block;
+    margin-bottom:20px;
+}
+
+.banner-categories{
+    width:90%;
+}
+
+.banner-categories span{
+    padding:20px 20px;
+    text-align:center;
+}
+.category-item{
+    display:inline-flex;
+    margin:2px;
+    background-color: #40b9089a;
+    border-radius:5px;
+    color:#fff;
+    font-weight:bold;
+}
+
+footer{
+    color:#fff;
+    width:100%;
+    height:auto;
+    background-color: #40b908;
+    text-align:center;
+}
+
+.foot-area{
+    padding:20px;
+    display:block;
+}
+.foot-logo{
+    font-size:30px;
+    padding:30px;
+}
+.foot-partner{
+    font-size:12px;
+    padding:5px;
+}
+
+.foot-btn{
+    border:1px solid #fff;
+    border-radius:3px;
+    background-color:#40b908;
+    color:#fff;
+    width:170px;
+    padding:7px;
+}
+
+.foot-social{
+    width:100%;
+    padding-top:20px;
+    display:block;
+}
+
+.foot-social h4{
+   padding-top:5px;
+}
+
+.foot-contact{
+    padding:7px 5px;
+}
+
+
+/*MARKET LIST CODE*/
+#marketList{
+    width:100%;
+    text-align:center;
+}
+
+.marketListArea{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.marketListArea h3{
+    font-size:13px;
+}
+
+.marketInput{
+    width:65%;
+    padding:10px;
+    margin:4px;
+    border-radius:4px;
+    border:1px solid #40b908;
+}
+
+.marketInputText{
+    width:65%;
+    padding:10px;
+    margin:4px;
+    border-radius:4px;
+    border:1px solid #40b908;
+}
+
+.marketButton{
+    padding:9px;
+    border-radius:3px;
+    border:0px;
+    margin-top:6px;
+    width:120px;
+    background-color: #40b908;
+    color:#fff;
+    font-size:15px;
+}
+
+/*PRODUCT AREA*/
+
+#product{
+    padding-top:30px;
+    width:100%;
+    text-align:center;
+}
+
+.productArea{
+    width:80%;
+    display:inline-block;
+    margin-bottom:40px;
+}
+
+.productArea h4{
+    padding:20px;
+    font-size:16px;
+}
+
+.productAreaItem{
+    background-color:#40b908;
+    position:relative;
+    padding-bottom:30px;
+    margin-bottom:40px;
+    border-bottom-left-radius:10px;
+}
+
+.productAreaItemImg{
+    border-top-right-radius:10px;
+}
+
+.productAreaItem h4{
+    padding:4px;
+    padding-bottom:30px;
+    color:#fff
+}
+
+
+
+
