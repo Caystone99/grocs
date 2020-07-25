@@ -27,24 +27,20 @@ a{
 }
 
 #nav-bar span{
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 .nav-logo{
     display:block;
-    font-weight: bolder;
-    font-size:20px;
-    
 }
 
 .nav-logo a{
-    color:#40b908;
+    color:#5F2B32;
 }
 
 
 #store{
     background-image: url('../assets/bg.png');
-    
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -57,7 +53,7 @@ a{
 
 }
 .getStore{
-    font-size:18px;
+    font-size:20px;
     font-weight:bolder;
     margin-bottom:10px;
     color:#fff;
@@ -75,9 +71,9 @@ a{
     border:0px;
     margin-top:6px;
     width:90px;
-    background-color: #40b908;
+    background-color: #5F2B32;
     color:#fff;
-    font-size:15px;
+    font-size:19px;
 }
 
 #banner{
@@ -104,7 +100,7 @@ a{
 .category-item{
     display:inline-flex;
     margin:2px;
-    background-color: #40b9089a;
+    background-color: #5f2b329a;
     border-radius:5px;
     color:#fff;
     font-weight:bold;
@@ -114,7 +110,7 @@ footer{
     color:#fff;
     width:100%;
     height:auto;
-    background-color: #40b908;
+    background-color: #5F2B32;
     text-align:center;
 }
 
@@ -123,18 +119,17 @@ footer{
     display:block;
 }
 .foot-logo{
-    font-size:30px;
-    padding:30px;
+    padding:10px;
 }
 .foot-partner{
-    font-size:12px;
+    font-size:16px;
     padding:5px;
 }
 
 .foot-btn{
     border:1px solid #fff;
     border-radius:3px;
-    background-color:#40b908;
+    background-color:#5F2B32;
     color:#fff;
     width:170px;
     padding:7px;
@@ -167,7 +162,7 @@ footer{
 }
 
 .marketListArea h3{
-    font-size:13px;
+    font-size:16px;
 }
 
 .marketInput{
@@ -175,7 +170,7 @@ footer{
     padding:10px;
     margin:4px;
     border-radius:4px;
-    border:1px solid #40b908;
+    border:1px solid #5F2B32;
 }
 
 .marketInputText{
@@ -183,7 +178,7 @@ footer{
     padding:10px;
     margin:4px;
     border-radius:4px;
-    border:1px solid #40b908;
+    border:1px solid #5F2B32;
 }
 
 .marketButton{
@@ -192,7 +187,7 @@ footer{
     border:0px;
     margin-top:6px;
     width:120px;
-    background-color: #40b908;
+    background-color: #5F2B32;
     color:#fff;
     font-size:15px;
 }
@@ -217,7 +212,7 @@ footer{
 }
 
 .productAreaItem{
-    background-color:#40b908;
+    background-color:#5F2B32;
     position:relative;
     padding-bottom:30px;
     margin-bottom:40px;
